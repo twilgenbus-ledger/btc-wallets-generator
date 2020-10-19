@@ -1,0 +1,20 @@
+{
+  "name": "btc-wallets-generator",
+  "version": "1.0.0",
+  "description": "A very simple BTC wallet generator to help create wallets with a huge transaction history. Those accounts are meant to help benchmark blockchain exploration tools and/or wallets API.",
+  "main": "src/index.ts",
+  "scripts": {},
+  "author": "thomas.wilgenbus-ext@ledger.fr",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.11.8",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "bip39": "^3.0.2",
+    "bitcoinjs-lib": "^5.2.0",
+    "commander": "^6.1.0",
+    "got": "^11.7.0"
+  }
+}
